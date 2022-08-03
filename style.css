@@ -8,7 +8,7 @@ body {
 img {
     object-fit: cover;
     width: 300px;
-    height: 300px;
+    height: auto;
 }
 
 a {
@@ -29,14 +29,6 @@ a {
     flex-shrink: 0;
 }
 
-.content {
-    flex: 1;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-}
-
 .navBar {
     display: flex;
     justify-content: space-around;
@@ -45,23 +37,39 @@ a {
 
 .titleArea {
     display: flex;
-    justify-content: space-evenly;
-    margin: 10px;
+    justify-content: center;
+    align-items: center;
+    margin: 60px;
 }
 
-.mainIntro, .mainImage {
-    flex-shrink: 6;
+.mainIntro {
+    text-align: left;
+    margin: 20px;
+    width: 50%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }
 
 .illustrations {
-    height: 52px;
     display: flex;
-    margin: 20px;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
 }
 
+.examples {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .text {
+    flex: auto;
     display: flex;
     justify-content: center;
     gap: 50px;
@@ -79,6 +87,21 @@ a {
 }
 
 .quote {
+    display: flex;
+    flex: auto;
+    flex-direction: column;
     background-color: #eeee;
     justify-content: center;
+    padding: 0 100%;
+}
+
+.signup {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3882F6;
+    margin: 80px;
+    color: white;
+    padding: 50px;
+    border-radius: 7px;
 }
