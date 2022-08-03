@@ -1,5 +1,5 @@
 body {
-    height: 100vh;
+    height: 100%;
     display: flex;
     margin: 0;
     flex-direction: column;
@@ -8,18 +8,32 @@ body {
 img {
     object-fit: cover;
     width: 300px;
-    height: auto;
+    height: 300px;
 }
 
 a {
     margin: 10px;
     text-decoration: none;
+    color: white;
 }
 
 .header, .footer {
     background-color: #1F2937;
     color: white;
     display: flex;
+    flex-direction: column;
+}
+.footer {
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+}
+
+.content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
     flex-direction: column;
 }
 
@@ -32,10 +46,39 @@ a {
 .titleArea {
     display: flex;
     justify-content: space-evenly;
-    flex-flow: row wrap;
     margin: 10px;
 }
 
 .mainIntro, .mainImage {
-    flex-shrink: 3;
+    flex-shrink: 6;
+}
+
+.illustrations {
+    height: 52px;
+    display: flex;
+    margin: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.text {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+    flex-wrap: wrap;
+}
+  
+.images {
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.info {
+    max-width: 200px;
+}
+
+.quote {
+    background-color: #eeee;
+    justify-content: center;
 }
