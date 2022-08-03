@@ -1,0 +1,41 @@
+body {
+    height: 100vh;
+    display: flex;
+    margin: 0;
+    flex-direction: column;
+}
+
+img {
+    object-fit: cover;
+    width: 300px;
+    height: auto;
+}
+
+a {
+    margin: 10px;
+    text-decoration: none;
+}
+
+.header, .footer {
+    background-color: #1F2937;
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.navBar {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.titleArea {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+    margin: 10px;
+}
+
+.mainIntro, .mainImage {
+    flex-shrink: 3;
+}
