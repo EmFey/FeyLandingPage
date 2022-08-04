@@ -14,7 +14,8 @@ img {
 a {
     margin: 10px;
     text-decoration: none;
-    color: white;
+    font-size: 18px;
+    color: #E5E7EB;
 }
 
 .header, .footer {
@@ -22,11 +23,13 @@ a {
     color: white;
     display: flex;
     flex-direction: column;
+    padding: 10px;
 }
 .footer {
     justify-content: center;
     align-items: center;
     flex-shrink: 0;
+    padding: 20px;
 }
 
 .navBar {
@@ -39,7 +42,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 60px;
+    margin: 30px;
 }
 
 .mainIntro {
@@ -101,16 +104,56 @@ a {
     flex: auto;
     background-color: #eeee;
     justify-content: center;
-    padding: 0 100%;
+    align-items: center;
+    width: 93%;
+    padding: 50px;
+    margin: 10px;
+    flex-direction: column;
 }
 
 .signup {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     background-color: #3882F6;
-    margin: 80px;
+    margin: 60px;
     color: white;
-    padding: 50px;
+    width: 40%;
+    padding: 40px;
     border-radius: 7px;
+}
+
+.signContainer , .signupBtn {
+    padding: 10px;
+}
+
+.navBar p {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+.mainIntro h2 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    color: #F9FAF8;
+}
+
+.mainIntro p {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+
+.mainIntro button {
+    background-color: #3882F6;
+    color: white;
+    border: none;
+    padding: 10px 50px;
+    border-radius: 7px;
+}
+.signupBtn button {
+    background-color: #3882F6;
+    color: white;
+    border: 2px solid white;
+    border-radius: 7px;
+    padding: 10px 50px;
 }
