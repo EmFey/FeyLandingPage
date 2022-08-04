@@ -60,11 +60,12 @@ a {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    gap: 10px;
 }
 
 .examples {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -72,24 +73,32 @@ a {
     flex: auto;
     display: flex;
     justify-content: center;
+    text-align: center;
     gap: 50px;
     flex-wrap: wrap;
 }
-  
-.images {
-    display: flex;
-    justify-content: center;
-    gap: 50px;
-}
 
 .info {
-    max-width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: fit-content;
+    margin: 10px;
+}
+
+.info img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #3882F6;
+    border-radius: 15px;
+    margin: 5px 20px 0px 20px;
 }
 
 .quote {
     display: flex;
     flex: auto;
-    flex-direction: column;
     background-color: #eeee;
     justify-content: center;
     padding: 0 100%;
