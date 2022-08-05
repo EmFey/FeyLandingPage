@@ -158,3 +158,33 @@ a {
     border-radius: 7px;
     padding: 10px 50px;
 }
+
+.illustrations h2 {
+    font-size: 36px;
+    font-weight: 800;
+    color: #1F2937;
+}
+
+.quote p {
+    font-size: 25px;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.takuan {
+    font-size: 30px;
+    font-weight: 800;
+    font-style: italic;
+    color: #1F2937;
+    text-align: right;
+}
+
+button:hover {
+    background-color: #3e8e41
+}
+
+button:active {
+  background-color: #3e8e41;
+  box-shadow: 0 2px #666;
+  transform: translateY(4px);
+}
