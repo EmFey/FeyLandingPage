@@ -3,6 +3,7 @@ body {
     display: flex;
     margin: 0;
     flex-direction: column;
+    font-family: monospace;
 }
 
 img {
