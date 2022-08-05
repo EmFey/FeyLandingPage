@@ -100,6 +100,10 @@ a {
     margin: 5px 20px 0px 20px;
 }
 
+.info img:hover {
+    border-color: #0051ff;
+}
+
 .quote {
     display: flex;
     flex: auto;
@@ -180,7 +184,7 @@ a {
 }
 
 button:hover {
-    background-color: white;
+    background-color: #0051ff;
 }
 
 button:active {
