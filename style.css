@@ -1,6 +1,7 @@
 body {
+    font-weight: bold;
     display: grid;
-    grid-template-rows: 1fr 1000px 20px;
+    grid-template-rows: 1fr 1000px 50px;
     margin: 0;
     font-family: monospace;
 }
@@ -72,9 +73,8 @@ a {
 }
 
 .examples {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
 }
 
 .text {
@@ -90,8 +90,7 @@ a {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
-    max-width: fit-content;
+    flex-direction: column;
     margin: 10px;
 }
 
