@@ -1,8 +1,7 @@
 body {
-    height: 100%;
-    display: flex;
+    display: grid;
+    grid-template-rows: 1fr 1000px 20px;
     margin: 0;
-    flex-direction: column;
     font-family: monospace;
 }
 
@@ -10,6 +9,11 @@ img {
     object-fit: cover;
     width: 300px;
     height: auto;
+    border-radius: 7px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    -ms-border-radius: 7px;
+    -o-border-radius: 7px;
 }
 
 a {
